@@ -1,0 +1,34 @@
+section{
+    padding: 2rem 7%;
+}
+section h1{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+section span{
+    font-weight: bold;
+}
+section span i{
+    color: blue;
+    margin-right: 1rem;
+}
+
+.data{
+    margin-top: 1rem;
+}
+
+.data a{
+    display: inline-block;
+    margin: .4rem .7rem;
+    padding: .4rem .6rem;
+    border: 1px solid blue;
+    border-radius: 5rem;
+    color: blue;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

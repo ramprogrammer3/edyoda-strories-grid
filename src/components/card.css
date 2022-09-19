@@ -1,0 +1,34 @@
+
+.card{
+    width: calc(33% - 30px);
+    border: 1px solid lightblue;
+    background-color: #fff;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+}
+.card .content{
+    padding: .5rem 1rem 1rem;
+}
+.content h3{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+.content .date{
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.content p span{
+    color: blue;
+    font-weight: 500;
+}
+
+.details{
+    opacity: .6;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
